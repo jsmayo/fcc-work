@@ -11,6 +11,7 @@ function whatIsInAName(collection, source) {
   for(var t=0; t < sourceKeys.length; t++) { 
     // Get the first key
     var sourceProp = sourceKeys[t];
+    console.log(collectKeys);
 //     console.log(sourceProp);
     for(var i = 0; i < collectKeys.length; i++) {
       // make a new object from the first index of collection ** CAN contain multiple!
